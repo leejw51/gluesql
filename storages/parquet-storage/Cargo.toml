@@ -20,7 +20,7 @@ thiserror = "1.0"
 parquet = "43.0.0"
 byteorder = "1.4.3"
 num-traits = "0.2.5"
-rust_decimal = "1.15"
+rust_decimal = {git = "https://github.com/leejw51/rust-decimal", branch = "master"}
 lazy_static = "1.4.0"
 
 [dev-dependencies]

@@ -25,5 +25,5 @@ futures = "0.3"
 test-suite.workspace = true
 
 tokio = { version = "1", features = ["rt", "macros"] }
-rust_decimal = "1"
+rust_decimal = {git = "https://github.com/leejw51/rust-decimal", branch = "master"}
 rust_decimal_macros = "1"

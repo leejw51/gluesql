@@ -18,7 +18,7 @@ cfg-if = "1"
 futures-enum = "0.1.17"
 futures = "0.3"
 chrono = { version = "=0.4.33", features = ["serde", "wasmbind"] }
-rust_decimal = { version = "1", features = ["serde-str"] }
+rust_decimal = { git = "https://github.com/leejw51/rust-decimal", branch = "master", features = ["serde-str"]  }
 im-rc = "15"
 iter-enum = "1"
 itertools = "0.12"
